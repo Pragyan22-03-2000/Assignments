@@ -1,0 +1,353 @@
+.heading {
+    padding-top: 100px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.filter-options {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 525px;
+    box-sizing: border-box;
+}
+
+.filter-heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    padding-top: 20px;
+}
+
+.Select-Location {
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 30px;
+}
+
+.Rectangle-2236 {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #8c96ab;
+    margin-top: 10px;
+}
+
+.Cuisine {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 12px;
+}
+
+.checkbox-items {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.Item {
+    width: 100%;
+    height: 220px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    margin-left: 25%;
+}
+
+.rest-name {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rest-location {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rest-address {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.Bakery {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.big {
+    display: inline-block;
+    width: 68%;
+}
+
+.vertical {
+    vertical-align: top;
+}
+
+.small {
+    display: inline-block;
+    width: 28%;
+}
+
+.big-item {
+    display: inline-block;
+    width: 68%;
+}
+
+.small-item {
+    display: inline-block;
+    width: 28%;
+}
+
+.margin-left {
+    margin-left: 7%
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.pagination a {
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Item {
+        width: 160%;
+        height: 200px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 15px;
+    }
+    .filter-options {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        min-width: 450px;
+    }
+    .big {
+        display: block;
+        width: 68%;
+    }
+    .small {
+        display: block;
+        width: 28%;
+    }
+    .big-item {
+        display: inline-block;
+        width: 68%;
+    }
+    .small-item {
+        display: inline-block;
+        width: 28%;
+    }
+    .rest-name {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-location {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-address {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+        padding-left: 35px;
+    }
+    .pagination {
+        display: inline-block;
+        margin-top: 25px;
+        width: 380px;
+        margin-left: 50px;
+    }
+}
+
+    nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgb(253, 3, 3);
+    border-bottom: 1px solid #fff;
+    }
+    nav .logo{
+    padding: 5px 20px;
+    height: 80px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 243, 243);
+    border-radius: 100px;
+    background-color: white;
+    max-width: 50px;;
+    }
+    nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-color: white;
+    border-style: solid;
+    }
+    nav ul .create{
+        line-height: 80px;
+        color: #fff;
+        padding: 0px 30px;
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+    }
+    nav ul li a:hover{
+    background: rgba(238, 38, 38, 0.7);
+    border-radius: 6px;
+    margin-top: 50px;
+    opacity: 120%;
+    
+    }
+    nav ul ul{
+    position: absolute;
+    width: 300px;
+    margin-top: 10px;
+    display: none;
+    border-radius: 5px;
+    }
+    nav ul li:hover > ul{
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 200%;
+    
+    }
+    nav ul ul li{
+    width: 250px;
+    float: none;
+    display: list-item;
+    position: relative;
+    opacity: 200%;
+    
+    }
+    nav ul ul ul li{
+    position: relative;
+    top: -40px;
+    left: 150px;
+    
+    }
+    
